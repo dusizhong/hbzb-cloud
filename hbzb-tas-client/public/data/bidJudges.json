@@ -1,0 +1,9 @@
+{
+	"bidJudges": [
+		{ "id": 1, "name": "洪七公", "idCardNo": "1301564856845646", "phone": "13003115678", "catalog": "机械设备", "workPlace":"河北机械行业协会", "tendereeDelegate": "否", "judgeLeader": "是" },
+		{ "id": 2, "name": "黄药师", "idCardNo": "1364886847646656", "phone": "13999887755", "catalog": "药品", "workPlace": "浙江桃花岛生物科技有限公司", "tendereeDelegate": "是", "judgeLeader": "否" },
+		{ "id": 3, "name": "欧阳锋", "idCardNo": "1555641235466344", "phone": "18699002588", "catalog": "煤炭煤层气及其制品", "workPlace": "甘肃煤炭开采集团有限公司", "tendereeDelegate": "否", "judgeLeader": "否" },
+		{ "id": 4, "name": "段王", "idCardNo": "13648888800046656", "phone": "13999887755", "catalog": "药品", "workPlace": "云南大理段氏有限公司", "tendereeDelegate": "否", "judgeLeader": "否" },
+		{ "id": 5, "name": "周伯通", "idCardNo": "183223546633222", "phone": "18699002588", "catalog": "旅游业务", "workPlace": "陕西终南山股份有限公司", "tendereeDelegate": "否", "judgeLeader": "否" }
+	]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>websocket测试</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="sockjs.min.js"></script>
+    <script src="stomp.min.js"></script>
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">您的浏览器不支持WebSocket!</h2></noscript>
+<div id="main-content" class="container">
+    <h3>websocket测试</h3>
+    <button id="send">发送</button>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 id="greetings"></h3>
+        </div>
+    </div>
+</div>
+</body>
+
+
+<script>
+
+$(document).ready(function() {
+    var stompClient = null;　
+    var socket = new SockJS('http://192.168.33.113:9000/v1/evs/websocket?access_token=0b340a47-1cd5-4d72-90e9-32614267e53f');
+    stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (res) {
+        console.log('连接状态: ' + res);
+        stompClient.subscribe('/message', function(msg) {
+            console.log('有新消息: ' + msg);
+        });
+    });
+})
+
+$("#send").click(function() {
+    $("#greetings").empty();
+    $.ajax({
+        url: 'http://192.168.33.113:9000/v1/evs/send?msg=123&access_token=0b340a47-1cd5-4d72-90e9-32614267e53f',
+        success: function(data) {
+            $("#greetings").append(data);
+        },
+        error: function(error) {
+            alert('错误!');
+        }
+    });
+})
+
+</script>
+</html>

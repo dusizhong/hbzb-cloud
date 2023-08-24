@@ -1,0 +1,42 @@
+/**
+	评标办法
+	@see http://www.gov.cn/gongbao/content/2002/content_61590.htm
+	@see http://www.gov.cn/flfg/2014-01/03/content_2559194.htm
+	@see 《政府采购竞争性磋商采购方式管理暂行办法》 http://www.ccgp.gov.cn/zcfg/mof/201501/t20150121_4942852.htm
+	@updated by dusizong at 2020.03.24
+	@created by dusizong at 2020.03.24
+*/
+
+{
+	"bidEvalMethods": [
+		{
+			"id": 1,
+			"name": "综合评分法",
+			"memo": "全流程政府采购综合评分法",
+			"flow": [
+				{ "初步评审": "资格评审,符合性评审" },
+				{ "详细评审": "资格评审,符合性评审" },
+			]
+		},
+		{
+			"id": 2,
+			"name": "竞争性谈判",
+			"memo": "竞争性谈判竞争性谈判竞争性谈判"
+		},
+		{
+			"id": 3,
+			"name": "竞争性磋商",
+			"memo": "竞争性磋商"
+		},
+		{
+			"id": 4,
+			"name": "单一来源",
+			"memo": "单一来源单一来源单一来源"
+		},
+		{
+			"id": 5,
+			"name": "询价",
+			"memo": "采购的货物规格、标准统一、现货货源充足且价格变化幅度小的政府采购项目，可以依照本法采用询价方式采购。"
+		}
+	]
+}

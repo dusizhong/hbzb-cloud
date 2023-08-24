@@ -1,0 +1,7 @@
+{
+	"inviteBidders": [
+		{ "id": 1, "bidderName": "河北测试有限公司", "bidderMan": "张三", "deliverTime": "2020-02-22 12:00:20", "status": "已发出", "receiptUrl":"1.pdf", "invitationUrl": "1.pdf" },
+		{ "id": 2, "bidderName": "河北装备设计安装有限公司", "bidderMan": "李四", "deliverTime": "", "status": "未发出", "receiptUrl": "2.pdf", "invitationUrl": "2.pdf" },
+		{ "id": 3, "bidderName": "河北建工集团有限公司", "bidderMan": "王五", "deliverTime": "", "status": "未发出", "receiptUrl": "3.pdf", "invitationUrl": "3.pdf" }
+	]
+}

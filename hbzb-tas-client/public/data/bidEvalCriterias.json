@@ -1,0 +1,207 @@
+/**
+	评分标准  仅综合评分法？
+	@see 《中华人民共和国政府采购法》第二十二条 http://www.gov.cn/gongbao/content/2002/content_61590.htm
+	@updated by dusizong at 2020.03.25
+	@created by dusizong at 2020.03.24
+*/
+
+{
+	"bidEvalCriterias": [
+		{
+			"id": 1,
+			"catalog": "初步评审",
+			"subCatalog": "资格评审",
+			"name": "营业执照",
+			"content": "营业执照原件或有效复印件",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 2,
+			"catalog": "初步评审",
+			"subCatalog": "资格评审",
+			"name": "资质证书",
+			"content": "资质证书原件或有效复印件",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 3,
+			"catalog": "初步评审",
+			"subCatalog": "资格评审",
+			"name": "授权委托书及身份证明",
+			"content": "投标人身份证及授权委托书原件（法定代表人本人无须提供授权委托书）",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 4,
+			"catalog": "初步评审",
+			"subCatalog": "资格评审",
+			"name": "其他相关材料",
+			"content": "其他相关材料",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 5,
+			"catalog": "初步评审",
+			"subCatalog": "符合性评审",
+			"name": "招标文件符合性",
+			"content": "由评标委员会依据招标文件的规定，从投标文件的有效性、完整性和对招标文件的响应程度进行审查，以确定是否对招标文件的实质性要求作出响应。",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+
+		{
+			"id": 6,
+			"catalog": "详细评审",
+			"subCatalog": "商务部分",
+			"name": "投标人的综合实力",
+			"content": "根据投标企业综合实力，包括经营范围、人员、软硬件设施条件、财务情况等，进行综合评价：优的得7-10分、良的得3-6分、一般的得0-2分",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "10.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 7,
+			"catalog": "详细评审",
+			"subCatalog": "商务部分",
+			"name": "投标人业绩",
+			"content": "具有合同金额50万元（含）以上类似的财务核算系统建设的业绩，每有1份合同加0.5分，最多得10分。投标人业绩整项最高得10分。说明：投标人业绩是指2014年11月1日至投标截止时间前1日的业绩，以合同签订日期为准。投标人需提供合同复印件（包括签约时间、项目名称、服务内容、合同金额、合同签字页等关键内容）。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "10.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 8,
+			"catalog": "详细评审",
+			"subCatalog": "商务部分",
+			"name": "资质",
+			"content": "1、ISO9001质量管理体系认证（1分）投标人具有有效期内的ISO9001认证得1分，否则得0分。2、计算机信息系统集成与服务资质（1分）投标人具有计算机信息系统集成与服务资质的得1分，否则得0分。3、CMMI3及以上认证证书（2分）软件开发原厂商具有CMMI3证书得1分，CMMI3以上证书得2分，其它情况得0分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "4.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 9,
+			"catalog": "详细评审",
+			"subCatalog": "技术部分",
+			"name": "项目需求分析，相应重点难点分析及应对措施",
+			"content": "根据投标人对于项目的定位、建设目标以及业务需求的理解和分析是否深入、详细、到位，响应是否完整、业务功能划分是否科学合理，是否有针对性等综合比较打分。优的得7-8分，良的得4-6分，一般的得0-3分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "8.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 10,
+			"catalog": "详细评审",
+			"subCatalog": "技术部分",
+			"name": "系统架构及功能设计",
+			"content": "设计方案应包含完整的系统架构设计、软件功能设计、数据库设计方案；从方案完整性、可操作性，架构图、流程图的合理性，总体设计原则与招标文件要求符合性综合比较打分。优的得11-13分，良的得6-10分，一般的得0-5分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "13.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 11,
+			"catalog": "详细评审",
+			"subCatalog": "技术部分",
+			"name": "安全保护方案",
+			"content": "从安全保护方案设计的科学性、合理性、针对性、可行性综合比较打分。优的得7-8分，良的得4-6分，一般的得0-3分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "8.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 12,
+			"catalog": "详细评审",
+			"subCatalog": "技术部分",
+			"name": "售后服务方案",
+			"content": "根据服务流程、服务制度、服务人员及组织保障措施等进行综合比较打分。优的得6-7分，良的得3-5分，一般的得0-2分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "7.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 13,
+			"catalog": "详细评审",
+			"subCatalog": "技术部分",
+			"name": "培训方案",
+			"content": "根据培训方案的合理性、可行性进行综合比较打分。优的得4分；良的得2-3分；一般的得0-1分。",
+			"scoreType": "直接打分",
+			"totalScore": "",
+			"minScore": "4.00",
+			"maxScore": "0.00",
+			"baseFormula": "",
+			"deductFormula": ""
+		},
+		{
+			"id": 14,
+			"catalog": "价格评审",
+			"subCatalog": "价格评审",
+			"name": "报价评分",
+			"content": "评标基准价=通过初步评审的投标人评标价格之和/通过初步评审的投标人数量；投标人评标价格的偏差率δ=（投标人评标价格-评标基准价）/评标基准价×100%确定投标人报价得分如下：当δ=0时，得15分；当δ＞0时，则投标报价得分在15分的基础上，δ每增加1个百分点，则扣减0.2分，当δ＜0时，则投标报价得分在15分的基础上，δ每减少1个百分点，则扣减0.1分，最多扣减至10分；其他情形，按中间插入法计算投标报价得分。",
+			"scoreType": "自动打分",
+			"totalScore": "30.00",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "avg1([A1],[A2],[A3],[A4])",
+			"deductFormula": "if([A1],[A2])"
+		},
+		{
+			"id": 15,
+			"catalog": "否决项",
+			"subCatalog": "否决项",
+			"name": "否决项",
+			"content": "否决项说明",
+			"scoreType": "符合性打分",
+			"totalScore": "",
+			"minScore": "",
+			"maxScore": "",
+			"baseFormula": "",
+			"deductFormula": ""
+		}
+	]
+}

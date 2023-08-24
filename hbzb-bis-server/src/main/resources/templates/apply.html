@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>E保成电子保函平台</title>
+</head>
+<body>
+    <h2 id="test">保函申请</h2>
+    <h3 th:text="${appid}"></h3>
+    <form method="POST" action="/EbaochServer/open/submit" enctype="multipart/form-data">
+        <input type="hidden" name="appid" th:value="${appid}" />
+        <p>项目名称 <input type="text" name="projectTitle" th:value="${projectTitle}" /></p>
+        <p>项目编号 <input type="text" name="projectNo" th:value="${projectNo}" /></p>
+        <p>项目所在地 <input type="text" name="area" th:value="${area}" /></p>
+        <p>受益人 <input type="text" name="beneficiary" th:value="${beneficiary}" /></p>
+        <p>担保金额 <input type="text" name="amount" th:value="${amount}" /></p>
+        <p>开标时间 <input type="text" name="bidTime" th:value="${bidTime}" /></p>
+        <p>投标有效期 <input type="text" name="period" th:value="${period}" /></p>
+        <p>申请人全称 <input type="text" name="corpName" th:value="${corpName}" /></p>
+        <p>信用代码 <input type="text" name="uniformCode" th:value="${uniformCode}" /></p>
+        <input type="hidden" name="sign" th:value="${sign}" />
+
+        <input type="file" name="file" /><br/><br/>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

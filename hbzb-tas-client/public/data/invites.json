@@ -1,0 +1,9 @@
+{
+	"invites": [
+		{ "id": 1, "serialNo": "WLGS32222020001001", "name": "河北西柏坡发电有限责任公司#4炉除尘器布袋采购分包1", "price": "588.00", "num": "1200", "totalBudget":"680000.00", "procurementType": "邀请招标" },
+		{ "id": 2, "serialNo": "WLGS32222020001002", "name": "河北西柏坡发电有限责任公司#4炉除尘器布袋采购分包2", "price": "750.00", "num": "3000", "totalBudget": "210000.00", "procurementType": "邀请招标" },
+		{ "id": 3, "serialNo": "WLGS32222020001003", "name": "河北西柏坡发电有限责任公司#4炉除尘器布袋采购分包3", "price": "160.00", "num": "5000", "totalBudget": "330000.00", "procurementType": "邀请招标" },
+		{ "id": 4, "serialNo": "WLGS32222020001004", "name": "河北西柏坡发电有限责任公司#4炉除尘器布袋采购分包4", "price": "750.00", "num": "3000", "totalBudget": "210000.00", "procurementType": "邀请招标" },
+		{ "id": 5, "serialNo": "WLGS32222020001005", "name": "河北西柏坡发电有限责任公司#4炉除尘器布袋采购分包5", "price": "160.00", "num": "5000", "totalBudget": "330000.00", "procurementType": "邀请招标"}
+	]
+}

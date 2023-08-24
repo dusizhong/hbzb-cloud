@@ -1,0 +1,27 @@
+{
+	"guarantors": [
+		{
+			"label": "银行",
+			"value": "银行",
+			"children": [
+				{ "label": "建设银行", "value": "建设银行" },
+				{ "label": "工商银行", "value": "工商银行" },
+				{ "label": "浦发银行", "value": "浦发银行" }
+			]
+		},
+		{
+			"label": "担保公司",
+			"value": "担保公司",
+			"children": [
+				{ "label": "担保公司", "value": "安心担保" }
+			]
+		},
+		{
+			"label": "保险公司",
+			"value": "保险公司",
+			"children": [
+				{ "label": "华安保险", "value": "华安保险" }
+			]
+		}
+	]
+}

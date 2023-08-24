@@ -1,0 +1,49 @@
+{
+	"projectMaterials": [
+		{
+			"id": 1,
+			"projectUid": "",
+			"name": "采购计划相关附件",
+			"memo": "采购计划相关附件",
+			"example": "",
+			"url": "",
+			"needed": true
+		},
+		{
+			"id": 2,
+			"projectUid": "",
+			"name": "委托协议（合同）",
+			"memo": "请上传PDF格式文件",
+			"example": "",
+			"url": "",
+			"needed": true
+		},
+		{
+			"id": 3,
+			"projectUid": "",
+			"name": "招标文件",
+			"memo": "招标文件（首页盖公章）",
+			"example": "",
+			"url": "",
+			"needed": false
+		},
+		{
+			"id": 4,
+			"projectUid": "",
+			"name": "承诺书",
+			"memo": "承诺书",
+			"example": "",
+			"url": "",
+			"needed": false
+		},
+		{
+			"id": 5,
+			"projectUid": "",
+			"name": "其他",
+			"memo": "其他",
+			"example": "",
+			"url": "",
+			"needed": false
+		}
+	]
+}

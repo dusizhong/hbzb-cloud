@@ -1,0 +1,36 @@
+{
+	"corpMaterials": [
+		{
+			"id": 1,
+			"corpUid": "",
+			"name": "营业执照",
+			"memo": "营业执照电子件",
+			"example": "./data/business_license.jpg",
+			"url": ""
+		},
+		{
+			"id": 2,
+			"corpUid": "",
+			"name": "法人身份证",
+			"memo": "法定代表人身份证电子件",
+			"example": "./data/idcard.jpg",
+			"url": ""
+		},
+		{
+			"id": 3,
+			"corpUid": "",
+			"name": "信息申报责任人身份证",
+			"memo": "信息申报责任人身份证电子件",
+			"example": "./data/idcard.jpg",
+			"url": ""
+		},
+		{
+			"id": 4,
+			"corpUid": "",
+			"name": "法人授权委托书",
+			"memo": "法人授权委托书电子件",
+			"example": "./data/authorization.jpg",
+			"url": ""
+		}
+	]
+}

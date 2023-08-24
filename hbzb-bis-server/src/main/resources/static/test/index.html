@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="sockjs.min.js"></script>
+    <script src="stomp.min.js"></script>
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">您的浏览器不支持WebSocket!</h2></noscript>
+<div id="main-content" class="container">
+    <h3>交易信息</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="conversation" class="table table-striped">
+                <thead>
+                <tr><th>id</th><th>项目名称</th><th>挂牌起价</th><th>当前报价</th><th>报价时间</th></tr>
+                </thead>
+                <tbody id="greetings"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+
+
+$(document).ready(function() {
+    //requestData();
+    var stompClient = null;　
+    var socket = new SockJS('http://192.168.33.109:8080/HebtradeServer/websocket');
+    stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (frame) {
+        console.log('连接状态: ' + frame);
+        stompClient.subscribe('/message', function(message) {
+            console.log('有新报价: ' + message);
+            //requestData();
+        });
+    });
+});
+
+function requestData() {
+    $("#greetings").empty();
+    $.ajax({
+        url: 'http://192.168.33.200:8080/list',
+        success: function(data) {
+            let data1 = JSON.parse(data);
+            for(let d of data1) {
+                $("#greetings").append("<tr><th>"+d.id+"</th><th>"+d.name+"</th><th>"+d.price+"</th><th>"+d.bidderPrice+"</th><th>"+d.bidderTime+"</th></tr>");
+            }
+        },
+        error: function(error) {
+            alert('错误!');
+        }
+    });
+
+}
+
+</script>
+</html>

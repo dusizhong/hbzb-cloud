@@ -1,0 +1,75 @@
+
+{
+  "bidSections": [
+    {
+      "id": 1,
+      "uid": "19322657-cd48-4229-9ddf-3c0d9a85ba3d",
+      "serialNo": "HBCT-160161-172XX",
+      "name": "河北建投沙河发电有限责任公司经营期技改渣仓封闭项目",
+      "tendereeName": "河北建投沙河发电有限责任公司",
+      "agencyName": "河北招标集团",
+      "area": ["河北省", "张家口", "市辖区"],
+      "budgetAmount": "200000.00",
+      "tenderType": "公开招标",
+      "startBidTime": "2019-02-12 09:00:00",
+      "endBidTime": "2019-02-12 10:30:00",
+      "status": "待开标"
+    },
+    {
+      "id": 2,
+      "uid": "29322657-cd48-4229-9ddf-3c0d9a85ba3d",
+      "serialNo": "HBCT-160161-191XX",
+      "name": "华北制药股份有限公司北元分厂多效蒸馏水机采购招标",
+      "tendereeName": "华北制药股份有限公司",
+      "agencyName": "河北招标集团",
+      "area": ["河北省", "石家庄市", "市辖区"],
+      "budgetAmount": "150000.00",
+      "tenderType": "邀请招标",
+      "startBidTime": "2019-02-12 09:00:00",
+      "endBidTime": "2019-02-12 10:30:00",
+      "status": "待评标"
+    },
+    {
+      "id": 3,
+      "uid": "39322657-cd48-4229-9ddf-3c0d9a85ba3d",
+      "serialNo": "HBCT-170101-100XX",
+      "name": "东方碧水雅居安置房项目所需电梯采购及安装招标",
+      "tendereeName": "河北保定东方地产股份有限公司",
+      "agencyName": "河北招标集团",
+      "area": ["河北省", "保定", "市辖区"],
+      "budgetAmount": "300000.00",
+      "tenderType": "竞争性谈判",
+      "startBidTime": "2019-02-12 09:00:00",
+      "endBidTime": "2019-02-12 10:30:00",
+      "status": "等待评标"
+    },
+    {
+      "id": 4,
+      "uid": "49322657-cd48-4229-9ddf-3c0d9a85ba3d",
+      "serialNo": "HBCT2019062001001",
+      "name": "安平县东庙头至北郝村（南大堤）道路改造工程施工",
+      "tendereeName": "衡水市安平县交通建设局",
+      "agencyName": "河北招标集团",
+      "area": ["河北省", "衡水", "市辖区"],
+      "budgetAmount": "50000.00",
+      "tenderType": "竞争性磋商",
+      "startBidTime": "2019-02-12 09:00:00",
+      "endBidTime": "2019-02-12 10:30:00",
+      "status": "正在评标"
+    },
+    {
+      "id": 5,
+      "uid": "59322657-cd48-4229-9ddf-3c0d9a85ba3d",
+      "serialNo": "HBCT-190054-009",
+      "name": "沧州市御河新城项目御河新城住宅小区项目三期工程御河新城东区5号住宅楼、东商业11号楼、东商业9号楼、东商业10号楼及东区6号地下车库工程钢材供应商入围项目",
+      "tendereeName": "河北旅投集团",
+      "agencyName": "河北招标集团",
+      "area": ["河北省", "沧州", "市辖区"],
+      "budgetAmount": "280000.00",
+      "tenderType": "单一来源",
+      "startBidTime": "2019-02-12 09:00:00",
+      "endBidTime": "2019-02-12 10:30:00",
+      "status": "评标结束"
+    }
+  ]
+}

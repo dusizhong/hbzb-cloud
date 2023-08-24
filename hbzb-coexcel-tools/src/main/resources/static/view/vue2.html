@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <div id="app">
+        <ul>
+            <!--根据数组数据自动渲染页面-->
+            <li v-for="item in data">
+                {{item.id}}
+                <input type="text" v-model="item.name"></input>
+                <input type="text" v-model="item.money"></input>
+            </li>
+        </ul>
+        <button @click="add">添加数据</button>
+        <button v-if="i>3" @click="submit">查看结果</button>
+    </div>
+</body>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            data: [{"id": 1, "name":"", "money":""}],
+            i: 1
+        },
+        created:function() {
+            console.log('page created');
+        },
+        methods:{
+            add:function() {
+                this.i++;
+                let newData = {};
+                newData.id = this.i;
+                this.data.push(newData);
+            },
+            submit:function() {
+                alert(JSON.stringify(this.data));
+            }
+        }
+    })
+</script>

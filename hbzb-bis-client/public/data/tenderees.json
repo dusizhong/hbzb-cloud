@@ -1,0 +1,9 @@
+{
+	"tenderees": [ 
+		{ "id": "1", "name": "河北招标集团网络科技有限公司", "uniformCode": "91123982382123X322", "contactPerson": "李总", "contactNumber": "0311-83086899", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "2", "name": "石家庄市长安区住房和城区建设局", "uniformCode": "911300896712345667", "contactPerson": "李晓红", "contactNumber": "18678967896", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "3", "name": "唐山市丰润区城乡房地产开发有限公司", "uniformCode": "741852963789456123", "contactPerson": "王骥", "contactNumber": "0315-539096", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "4", "name": "河北坤弘工程管理服务有限公司", "uniformCode": "9112399983222214X23", "contactPerson": "王强", "contactNumber": "13323298711", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "5", "name": "盘锦辽河智慧城市发展集团有限公司", "uniformCode": "001281967121934489", "contactPerson": "张凡", "contactNumber": "18008995666", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" }
+	]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>提交结果</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="test"  th:fragment="test">
+        <h2 th:text="${message}"/>
+    </div>
+    <button id="send">发送</button>
+</body>
+<script type="text/javascript" th:inline="none" class="init">
+/*<![CDATA[*/
+$("#btn").click(function(){
+    console.log('btn clicked');
+    $.ajax({
+        url: "https://www.ebaoch.com/EbaochServer/guarantee_verify?serialNo=98079481558924067729",
+        type:"GET",
+        dataType:"json",
+        success:function(data){
+            console.log(data);
+            location.href='apply?appid=123&area=456';
+        },
+        error:function(error){
+            alert('程序出错');
+        }
+    });
+})
+/*]]>*/
+</script>
+
+<script type="text/javascript" th:inline="javascript" class="init">
+/*<![CDATA[*/
+// other javascript with thymeleaf variables in it goes here
+/*]]>*/
+</script>
+</html>

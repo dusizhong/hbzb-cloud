@@ -1,0 +1,9 @@
+{
+	"bidOpenRecords": [ 
+		{ "id": "1", "bidder": "河北招标集团网络科技有限公司", "bidderContactPerson": "张三", "bidderContactNumber": "13903111234", "bidDoc": "已递交", "signIn": "已签到", "decrypt": "已解密", "decryptTime": "2020-02-12 09:32:22", "bidPrice": "250000.00", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "2", "bidder": "石家庄市智慧网络设备销售公司", "bidderContactPerson": "李四", "bidderContactNumber": "15023589963", "bidDoc": "已递交", "signIn": "已签到", "decrypt": "", "decryptTime": "", "bidPrice": "280000.00", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "3", "bidder": "唐山市丰润区系统集成开发有限公司", "bidderContactPerson": "王五", "bidderContactNumber": "13369998877", "bidDoc": "已递交", "signIn": "", "decrypt": "", "decryptTime": "", "bidPrice": "260000.00", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "4", "bidder": "河北联想网络有限公司", "bidderContactPerson": "冯六", "bidderContactNumber": "18603336669", "bidDoc": "未递交", "signIn": "", "decrypt": "", "decryptTime": "", "bidPrice": "", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" },
+		{ "id": "5", "bidder": "盘锦辽河智慧城市发展集团有限公司", "bidderContactPerson": "赵七", "bidderContactNumber": "1880888844", "bidDoc": "已递交", "signIn": "已签到", "decrypt": "已解密", "decryptTime": "2020-02-12 09:34:00", "bidPrice": "250000.00", "creatorName": "老杜", "createTime": "2020-02-12 10:32:22" }
+	]
+}

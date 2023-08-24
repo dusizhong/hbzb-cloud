@@ -1,0 +1,6 @@
+{
+	"guarantor_types": [ 
+		{ "label": "银行", "value": "银行" },
+		{ "label": "担保机构", "value": "担保机构" }
+	]
+}

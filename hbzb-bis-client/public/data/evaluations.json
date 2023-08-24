@@ -1,0 +1,6 @@
+{
+	"evaluations": [
+		{ "id": "1", "name": "资质证照评审", "content": "投标人法定代表人或委托代理人投标时须提交本人身份证(或驾驶证、护照)原件。未提供者为无效投标。", "scoreType": "直接打分", "totalScore": "40", "minScore": "10", "maxScore": "30" },
+		{ "id": "2", "name": "辅助文件评审", "content": "投标人法定代表人或委托代理人投标时须提交本人身份证(或驾驶证、护照)原件。未提供者为无效投标。", "scoreType": "直接打分", "totalScore": "40", "minScore": "10", "maxScore": "30" }
+	]
+}

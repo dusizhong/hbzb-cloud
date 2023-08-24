@@ -1,0 +1,26 @@
+
+server:
+  port: 9000
+
+spring:
+  application:
+    name: hbzb-gw-server
+  cloud:
+    gateway:
+      routes:
+        - id: uaa
+          uri: http://localhost:9999
+          predicates:
+            - Path=/v1/uaa/**
+        - id: tas
+          uri: http://localhost:9001
+          predicates:
+            - Path=/v1/tas/**
+        - id: bis
+          uri: http://localhost:9002
+          predicates:
+            - Path=/v1/bis/**
+        - id: evs
+          uri: http://localhost:9003
+          predicates:
+            - Path=/v1/evs/**
